@@ -25,4 +25,4 @@ vs-code launch:
     ]
 }
 ```
-For possible LANG options, see [](https://jena.apache.org/documentation/io/rdf-input.html)
+For possible LANG options, see [rdf-input](https://jena.apache.org/documentation/io/rdf-input.html)
