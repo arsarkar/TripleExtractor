@@ -1,7 +1,11 @@
 # TripleExtractor
 Compile with mvn (mvn compile/install/package)
-Run jar with arguments <LANG> <rdf-file-path> <output-file-path>
+
+Run jar with arguments `<LANG> <rdf-file-path> <output-file-path>`
+
+
 vs-code launch:
+```
 {
     "version": "0.2.0",
     "configurations": [
@@ -20,5 +24,5 @@ vs-code launch:
         }
     ]
 }
-
-For possible LANG options, see https://jena.apache.org/documentation/io/rdf-input.html
+```
+For possible LANG options, see [](https://jena.apache.org/documentation/io/rdf-input.html)
