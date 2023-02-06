@@ -20,11 +20,11 @@ public class App
     {
         Model m = ModelFactory.createDefaultModel();
         try {
-            m.read(new FileInputStream(new File(args[0])), null, "RDF/XML");
+            m.read(new FileInputStream(new File(args[1])), null, args[0]);
             // m.write(System.out, "TTL");
             System.out.println("=========================================");
             StmtIterator  siter = m.listStatements();
-            FileOutputStream fo = new FileOutputStream(new File(args[1]));
+            FileOutputStream fo = new FileOutputStream(new File(args[2]));
             while(siter.hasNext()){
                 Statement s = siter.next();
                 // System.out.println(s.getSubject().toString() + "\t" +
